@@ -12,6 +12,9 @@ Since Glass doesn't allow you to easily manage your apps via the UI, you will re
 ### Uninstall an app
 `adb uninstall <package name>`
 
+### Download files from device
+`adb pull <device name>:<directory>` for example `adb pull glass-2:/sdcard/DCIM/Camera`
+
 ## Screen mirroring
 1. Download [Android Screen Mirror](https://code.google.com/archive/p/android-screen-monitor/) java jar.
 2. Unzip in desired directory.
@@ -19,6 +22,3 @@ Since Glass doesn't allow you to easily manage your apps via the UI, you will re
 3. Run `java -jar asm.jar`
 4. ...
 5. Profit
-
-### Download files from device
-`adb pull <device name>:<directory>` for example `adb pull glass-2:/sdcard/DCIM/Camera`
